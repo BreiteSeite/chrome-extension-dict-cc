@@ -2,7 +2,9 @@ function clickTranslate(info, tab) {
     var selection = info.selectionText;
     
     chrome.tabs.create({
-        "url": "http://www.dict.cc/?s=" + selection
+        "url": "http://www.dict.cc/?s=" + selection,
+        "index": tab.index + 1,
+        "openerTabId": tab.id
    });
     
 }
