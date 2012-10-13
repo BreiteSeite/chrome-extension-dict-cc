@@ -9,5 +9,8 @@
     "background": {
         "scripts": ["contextMenu.js"],
         "persistent": false
+    },
+    "icons": {
+        "16": "static/favicon.ico"
     }
 }
