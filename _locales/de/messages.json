@@ -1,0 +1,10 @@
+{
+    "contextMenu": {
+        "message": "Übersetze \"$SELECTION$\" auf dict.cc",
+        "placeholders": {
+            "selection": {
+                "content": "$1"
+            }
+        }
+    }
+}

@@ -12,5 +12,6 @@
     },
     "icons": {
         "16": "static/favicon.ico"
-    }
+    },
+    "default_locale": "en"
 }

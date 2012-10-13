@@ -11,7 +11,7 @@ chrome.contextMenus.onClicked.addListener(clickTranslate);
 
 chrome.runtime.onInstalled.addListener(function() {
     chrome.contextMenus.create({
-        "title": "Translate %s on dict.cc",
+        "title": chrome.i18n.getMessage("contextMenu", "%s"),
         "contexts": ["selection"],
         "id": "translate"
     })
