@@ -1,4 +1,4 @@
-function clickTranslate(info, tab) {
+chrome.contextMenus.onClicked.addListener(function(info, tab) {
     var selection = info.selectionText;
     
     chrome.tabs.create({
@@ -7,9 +7,7 @@ function clickTranslate(info, tab) {
         "openerTabId": tab.id
    });
     
-}
-
-chrome.contextMenus.onClicked.addListener(clickTranslate);
+});
 
 chrome.runtime.onInstalled.addListener(function() {
     chrome.contextMenus.create({
