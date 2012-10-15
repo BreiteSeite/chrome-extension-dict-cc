@@ -1,6 +1,6 @@
 {
     "contextMenu": {
-        "message": "Translate \"$SELECTION$\" on dict.cc",
+        "message": "Translate '$SELECTION$' on dict.cc",
         "placeholders": {
             "selection": {
                 "content": "$1"
