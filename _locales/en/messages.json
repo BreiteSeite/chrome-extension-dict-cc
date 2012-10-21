@@ -6,5 +6,11 @@
                 "content": "$1"
             }
         }
+    },
+    "extensionName": {
+        "message": "dict.cc context menu"
+    },
+    "extensionDescription": {
+        "message": "add a context-menu for dict.cc"
     }
 }
